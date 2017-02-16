@@ -1,3 +1,24 @@
 .results div {
   display: none;
+
+}
+.results h4 {
+  text-align: center;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.jumbotron {
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+#spiritForm {
+  max-width: 500px;
 }
