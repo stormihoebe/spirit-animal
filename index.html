@@ -16,121 +16,136 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form id="spiritForm">
-            <div class="form-group">
-              <h3>Where do you feel most at home?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="home" value="air">
-                  Air
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="home" value="land">
-                  Land
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="home" value="sea">
-                  Sea
-                </label>
-              </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Begin your quest</h3>
             </div>
-            <div class="form-group">
-              <h3>What is your sign?</h3>
-              <select class="form-control" id="astro">
-                <option value="Aries">Aries</option>
-                <option value="Taurus">Taurus</option>
-                <option value="Gemini">Gemini</option>
-                <option value="Cancer">Cancer</option>
-                <option value="Leo">Leo</option>
-                <option value="Virgo">Virgo</option>
-                <option value="Libra">Libra</option>
-                <option value="Scorpio">Scorpio</option>
-                <option value="Sagittarius">Sagittarius</option>
-                <option value="Capricorn ">Capricorn </option>
-                <option value="Aquarius">Aquarius</option>
-                <option value="Pisces">Pisces</option>
-              </select>
+            <div class="panel-body">
+              <form id="spiritForm">
+                <div class="form-group">
+                  <h3>Where do you feel most at home?</h3>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="home" value="air">
+                      Air
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="home" value="land">
+                      Land
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="home" value="sea">
+                      Sea
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <h3>What is your sign?</h3>
+                  <select class="form-control" id="astro">
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn ">Capricorn </option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h3>Ideal meal.</h3>
+                  <select class="form-control" id="favFood">
+                    <option value="Steak">Steak</option>
+                    <option value="Lobster">Lobster</option>
+                    <option value="Salad">Salad</option>
+                    <option value="Ants">Ants</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h3>What time do you usually go to bed?</h3>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="bedTime" value="9">
+                      9 PM - 12 AM
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="bedTime" value="12">
+                      12 AM - 3 AM
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="bedTime" value="sunrise">
+                      sunrise
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="bedTime" value="sloth">
+                      I'm always in bed
+                    </label>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit" name="button">Find your Spirit Animal</button>
+              </form>
             </div>
-            <div class="form-group">
-              <h3>Ideal meal.</h3>
-              <select class="form-control" id="favFood">
-                <option value="Steak">Steak</option>
-                <option value="Lobster">Lobster</option>
-                <option value="Salad">Salad</option>
-                <option value="Ants">Ants</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <h3>What time do you usually go to bed?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bedTime" value="9">
-                  9 PM - 12 AM
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bedTime" value="12">
-                  12 AM - 3 AM
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bedTime" value="sunrise">
-                  sunrise
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bedTime" value="sloth">
-                  I'm always in bed
-                </label>
-              </div>
-            </div>
-            <button class="btn btn-primary" type="submit" name="button">Find your Spirit Animal</button>
-          </form>
+          </div>
         </div>
-        <div class="col-md-6 results">
-          <div class="sloth">
-            <h4>You are a Sloth!</h4>
-            <img src="img/sloth.jpg" alt="a sloth" />
+        <div class="col-md-6">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Reveal your spirit animal</h3>
+            </div>
+            <div class="panel-body results">
+              <div class="sloth">
+                <h4>You are a Sloth!</h4>
+                <img src="img/sloth.jpg" alt="a sloth" />
+              </div>
+              <div class="anteater">
+                <h4>You are an Anteater!</h4>
+                <img src="img/anteater.jpg" alt="" />
+              </div>
+              <div class="fish">
+                <h4>You are a Fish!</h4>
+                <img src="img/fish.png" alt="" />
+              </div>
+              <div class="shark">
+                <h4>You are a Shark!</h4>
+                <img src="img/shark.jpg" alt="" />
+              </div>
+              <div class="bird">
+                <h4>You are a Bird!</h4>
+                <img src="img/bird.jpg" alt="" />
+              </div>
+              <div class="rabbit">
+                <h4>You are a Rabbit!</h4>
+                <img src="img/rabbit.jpg" alt="" />
+              </div>
+              <div class="tiger">
+                <h4>You are a Tiger!</h4>
+                <img src="img/tiger.jpg" alt="" />
+              </div>
+              <div class="bat">
+                <h4>You are a Bat!</h4>
+                <img src="img/bat.png" alt="" />
+              </div>
+              <div class="platypus">
+                <h4>You are a Platypus!</h4>
+                <img src="img/platypus.jpg" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="anteater">
-            <h4>You are an Anteater!</h4>
-            <img src="img/anteater.jpg" alt="" />
-          </div>
-          <div class="fish">
-            <h4>You are a Fish!</h4>
-            <img src="img/fish.png" alt="" />
-          </div>
-          <div class="shark">
-            <h4>You are a Shark!</h4>
-            <img src="img/shark.jpg" alt="" />
-          </div>
-          <div class="bird">
-            <h4>You are a Bird!</h4>
-            <img src="img/bird.jpg" alt="" />
-          </div>
-          <div class="rabbit">
-            <h4>You are a Rabbit!</h4>
-            <img src="img/rabbit.jpg" alt="" />
-          </div>
-          <div class="tiger">
-            <h4>You are a Tiger!</h4>
-            <img src="img/tiger.jpg" alt="" />
-          </div>
-          <div class="bat">
-            <h4>You are a Bat!</h4>
-            <img src="img/bat.png" alt="" />
-          </div>
-          <div class="platypus">
-            <h4>You are a Platypus!</h4>
-            <img src="img/platypus.jpg" alt="" />
-          </div>
+
         </div>
       </div>
     </div>

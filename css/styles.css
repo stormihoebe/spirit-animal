@@ -25,3 +25,11 @@ img {
 #spiritForm {
   max-width: 500px;
 }
+
+.btn-primary {
+  background-color: purple;
+  color: white;
+}
+.panel {
+  height: 650px;
+}
